@@ -96,7 +96,7 @@ const Index = () => {
                         </h3>
                     </div>
 
-                    <div className="client-box ml-auto mt-64">
+                    <div className="client-box ml-auto mt-64 min-text">
                         <div className="client-box-content">
                             <h3 className="font-travels-bold mb-0 fs-24 lh-28">Что Вы задумали?</h3>
                         </div>
@@ -253,10 +253,12 @@ const Index = () => {
                         </div>
                     </Slider>
 
-                    <div className="client-box ml-auto mt-64">
+                    <div className="client-box ml-auto mt-64 min-text flex-column align-items-end">
                         <div className="client-box-content">
                             <h3 className="font-travels-bold mb-0 fs-24 lh-28">Отправь фоточки!</h3>
                         </div>
+                        <p className="font-travels-demi-bold mb-0 mt-3">Вы</p>
+
                     </div>
 
                     <div className="office">
@@ -276,6 +278,7 @@ const Index = () => {
                         <div className="client-box-content">
                             <h3 className="font-travels-bold mb-0 fs-24 lh-28">Ок, я в деле. Что от меня требуется?</h3>
                         </div>
+                        <p className="font-travels-demi-bold mb-0 mt-3">Вы</p>
                     </div>
 
                     <div className="hr-box mt-108">

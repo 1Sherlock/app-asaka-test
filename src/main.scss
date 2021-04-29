@@ -72,6 +72,9 @@ h1, h2, h3, h4, h5, h6, p {
   max-width: 100%;
   margin: 0 auto;
 }
+*{
+  box-sizing: border-box;
+}
 
 
 html {
@@ -79,6 +82,7 @@ html {
   font-family: "TT-Travels-Regular", sans-serif;
 
   body {
+    margin: 0;
     width: 100%;
     overflow-x: hidden;
     padding-top: 116px;
@@ -168,6 +172,16 @@ html {
         p{
           text-align: right;
           margin-right: 2rem;
+        }
+
+        &.min-text{
+          display: flex;
+          width: auto;
+          justify-content: flex-end;
+          .client-box-content{
+            width: auto;
+          }
+
         }
       }
 
